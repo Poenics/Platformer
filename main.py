@@ -1,11 +1,18 @@
 import pygame
-import sys
+import sys as sus
 import random
 
 pygame.init()
-screen = pygame.display.set_mode([600,600])
+screen = pygame.display.set_mode([1600,900])
 clock = pygame.time.Clock()
 pygame.display.set_caption(random.choice(["Snek","Your mom sucks", "You stink", "10% Bug free", "no", "wait, this isn't minecraft?"]))
+
+
+class entity:
+    pass
+
+class player(entity):
+    pass
 
 
 def run():
@@ -15,7 +22,7 @@ def run():
     go = True
     while go:
         for event in pygame.event.get():
-            if event.type == pygame.QUIT: sys.exit()
+            if event.type == pygame.QUIT: sus.exit()
         
         pressed = pygame.key.get_pressed()
         if pressed[pygame.K_RIGHT]:
