@@ -10,7 +10,7 @@ pygame.display.set_caption(random.choice(["Snek","Your mom sucks", "You stink", 
 
 def run():
 
-    x = 80
+    x = 69
     y = 300
     go = True
     while go:
