@@ -1,4 +1,7 @@
 Level-Files
+
+  Whole level gets loaded on level start
+  
   2 Bytes Height
   2 Bytes Width
   1 Byte Theme (Background and Stuff)
@@ -10,9 +13,15 @@ Level-Files
     8 Bits Number of Repeats (or nothing, if the first Bit is 0)
     
 
+
 Level Editor
 Player
 Enemies
 Assets
   Textures
   Sounds
+
+
+Camera
+  Mario-like
+  Scrolls, once Player is in the Center
