@@ -2,8 +2,13 @@ Level-Files
   2 Bytes Height
   2 Bytes Width
   1 Byte Theme (Background and Stuff)
-  1 Byte -> Tile (Spalte first)
+  1 Byte -> Tile (Row first)
 
+  Repeating Tiles? - Don't Worry!
+    1 Bit Repeat?
+    7 Bits Tile
+    8 Bits Number of Repeats (or nothing, if the first Bit is 0)
+    
 
 Level Editor
 Player
