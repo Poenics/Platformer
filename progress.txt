@@ -1,0 +1,13 @@
+Level-Files
+  2 Bytes Height
+  2 Bytes Width
+  1 Byte Theme (Background and Stuff)
+  1 Byte -> Tile (Spalte first)
+
+
+Level Editor
+Player
+Enemies
+Assets
+  Textures
+  Sounds

@@ -1,6 +1,0 @@
-Level-Files
-Player
-Enemies
-Assets
-  Textures
-  Sounds
